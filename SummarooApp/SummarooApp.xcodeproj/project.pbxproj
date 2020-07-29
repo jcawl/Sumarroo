@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D35A7FFB7E5E07275EA7D32 /* Pods_SummarooApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF0E7A7BD7B97BD65497597 /* Pods_SummarooApp.framework */; };
+		576B513356DC79B808213163 /* Pods_SummarooAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3A6F2E8B3D0E97716FF74D /* Pods_SummarooAppTests.framework */; };
+		8D6DCBBF1F857D4DA32C01A2 /* Pods_SummarooApp_SummarooAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2986D948CA3E1FD48BBCA6E /* Pods_SummarooApp_SummarooAppUITests.framework */; };
+		DE1273512470889A00172F08 /* ButtonWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1273502470889A00172F08 /* ButtonWithLabel.swift */; };
+		DE1273552470F68D00172F08 /* book.json in Resources */ = {isa = PBXBuildFile; fileRef = DE1273542470F68D00172F08 /* book.json */; };
+		DE1273572470FF2600172F08 /* 4887-book.json in Resources */ = {isa = PBXBuildFile; fileRef = DE1273562470FF2600172F08 /* 4887-book.json */; };
+		DE12735924783C8C00172F08 /* PictureToTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE12735824783C8C00172F08 /* PictureToTextViewController.swift */; };
+		DE12735C247845E800172F08 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE12735A247845E800172F08 /* MyCollectionViewCell.swift */; };
+		DE12735D247845E800172F08 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE12735B247845E800172F08 /* MyCollectionViewCell.xib */; };
+		DE5795D3246B2D080095038B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5795D2246B2D080095038B /* AppDelegate.swift */; };
+		DE5795D5246B2D080095038B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5795D4246B2D080095038B /* SceneDelegate.swift */; };
+		DE5795D7246B2D080095038B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5795D6246B2D080095038B /* ViewController.swift */; };
+		DE5795DA246B2D080095038B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5795D8246B2D080095038B /* Main.storyboard */; };
+		DE5795DC246B2D200095038B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5795DB246B2D200095038B /* Assets.xcassets */; };
+		DE5795DF246B2D200095038B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5795DD246B2D200095038B /* LaunchScreen.storyboard */; };
+		DE5795EA246B2D200095038B /* SummarooAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5795E9246B2D200095038B /* SummarooAppTests.swift */; };
+		DE5795F5246B2D200095038B /* SummarooAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5795F4246B2D200095038B /* SummarooAppUITests.swift */; };
+		DE579603246B31850095038B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE579602246B31850095038B /* MainViewController.swift */; };
+		DE579608246B31C30095038B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE579607246B31C30095038B /* SignUpViewController.swift */; };
+		DE57960A246B31D30095038B /* SecondMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE579609246B31D30095038B /* SecondMainViewController.swift */; };
+		DE57960E246B36AA0095038B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE57960D246B36AA0095038B /* GoogleService-Info.plist */; };
+		DE579610246B50AB0095038B /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE57960F246B50AB0095038B /* MainNavigationController.swift */; };
+		DE7784A5247864590064D630 /* PictureToSummaryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7784A4247864590064D630 /* PictureToSummaryCollectionViewController.swift */; };
+		DE7784A9247897A70064D630 /* TextPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7784A8247897A70064D630 /* TextPopUpViewController.swift */; };
+		DE7784AF2479DF4F0064D630 /* PictureToPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7784AE2479DF4F0064D630 /* PictureToPDFViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE5795E6246B2D200095038B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5795C7246B2D080095038B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5795CE246B2D080095038B;
+			remoteInfo = SummarooApp;
+		};
+		DE5795F1246B2D200095038B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5795C7246B2D080095038B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5795CE246B2D080095038B;
+			remoteInfo = SummarooApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D3A6F2E8B3D0E97716FF74D /* Pods_SummarooAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SummarooAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C728EAF1902643281586138 /* Pods-SummarooApp-SummarooAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummarooApp-SummarooAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SummarooApp-SummarooAppUITests/Pods-SummarooApp-SummarooAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62E2A85458F559B0685D53C7 /* Pods-SummarooApp-SummarooAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummarooApp-SummarooAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SummarooApp-SummarooAppUITests/Pods-SummarooApp-SummarooAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6DF0E7A7BD7B97BD65497597 /* Pods_SummarooApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SummarooApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EB1F994BE530313685E7B0 /* Pods-SummarooAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummarooAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SummarooAppTests/Pods-SummarooAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2986D948CA3E1FD48BBCA6E /* Pods_SummarooApp_SummarooAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SummarooApp_SummarooAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A365BCA28C203AB17F472851 /* Pods-SummarooApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummarooApp.release.xcconfig"; path = "Target Support Files/Pods-SummarooApp/Pods-SummarooApp.release.xcconfig"; sourceTree = "<group>"; };
+		BB534E1F6A2D365BDADF614D /* Pods-SummarooAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummarooAppTests.release.xcconfig"; path = "Target Support Files/Pods-SummarooAppTests/Pods-SummarooAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFB21D4FB27ED93FC94AD65D /* Pods-SummarooApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummarooApp.debug.xcconfig"; path = "Target Support Files/Pods-SummarooApp/Pods-SummarooApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DE1273502470889A00172F08 /* ButtonWithLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithLabel.swift; sourceTree = "<group>"; };
+		DE1273542470F68D00172F08 /* book.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = book.json; sourceTree = "<group>"; };
+		DE1273562470FF2600172F08 /* 4887-book.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4887-book.json"; sourceTree = "<group>"; };
+		DE12735824783C8C00172F08 /* PictureToTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureToTextViewController.swift; sourceTree = "<group>"; };
+		DE12735A247845E800172F08 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE12735B247845E800172F08 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		DE5795CF246B2D080095038B /* SummarooApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummarooApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5795D2246B2D080095038B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE5795D4246B2D080095038B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE5795D6246B2D080095038B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE5795D9246B2D080095038B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE5795DB246B2D200095038B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE5795DE246B2D200095038B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE5795E0246B2D200095038B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5795E5246B2D200095038B /* SummarooAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummarooAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5795E9246B2D200095038B /* SummarooAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummarooAppTests.swift; sourceTree = "<group>"; };
+		DE5795EB246B2D200095038B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5795F0246B2D200095038B /* SummarooAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummarooAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5795F4246B2D200095038B /* SummarooAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummarooAppUITests.swift; sourceTree = "<group>"; };
+		DE5795F6246B2D200095038B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE579602246B31850095038B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DE579607246B31C30095038B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DE579609246B31D30095038B /* SecondMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMainViewController.swift; sourceTree = "<group>"; };
+		DE57960D246B36AA0095038B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE57960F246B50AB0095038B /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		DE7784A4247864590064D630 /* PictureToSummaryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PictureToSummaryCollectionViewController.swift; path = /Users/bernadinecawley/Desktop/App/SummarooApp/SummarooApp/ViewControllers/PictureToSummaryCollectionViewController.swift; sourceTree = "<absolute>"; };
+		DE7784A8247897A70064D630 /* TextPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPopUpViewController.swift; sourceTree = "<group>"; };
+		DE7784AE2479DF4F0064D630 /* PictureToPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureToPDFViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE5795CC246B2D080095038B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D35A7FFB7E5E07275EA7D32 /* Pods_SummarooApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5795E2246B2D200095038B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576B513356DC79B808213163 /* Pods_SummarooAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5795ED246B2D200095038B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6DCBBF1F857D4DA32C01A2 /* Pods_SummarooApp_SummarooAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F5BF6427C9455D696AD128E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DF0E7A7BD7B97BD65497597 /* Pods_SummarooApp.framework */,
+				A2986D948CA3E1FD48BBCA6E /* Pods_SummarooApp_SummarooAppUITests.framework */,
+				2D3A6F2E8B3D0E97716FF74D /* Pods_SummarooAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2A71D87F203D84B59B7A245 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFB21D4FB27ED93FC94AD65D /* Pods-SummarooApp.debug.xcconfig */,
+				A365BCA28C203AB17F472851 /* Pods-SummarooApp.release.xcconfig */,
+				5C728EAF1902643281586138 /* Pods-SummarooApp-SummarooAppUITests.debug.xcconfig */,
+				62E2A85458F559B0685D53C7 /* Pods-SummarooApp-SummarooAppUITests.release.xcconfig */,
+				83EB1F994BE530313685E7B0 /* Pods-SummarooAppTests.debug.xcconfig */,
+				BB534E1F6A2D365BDADF614D /* Pods-SummarooAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE5795C6246B2D080095038B = {
+			isa = PBXGroup;
+			children = (
+				DE5795D1246B2D080095038B /* SummarooApp */,
+				DE5795E8246B2D200095038B /* SummarooAppTests */,
+				DE5795F3246B2D200095038B /* SummarooAppUITests */,
+				DE5795D0246B2D080095038B /* Products */,
+				A2A71D87F203D84B59B7A245 /* Pods */,
+				9F5BF6427C9455D696AD128E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE5795D0246B2D080095038B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE5795CF246B2D080095038B /* SummarooApp.app */,
+				DE5795E5246B2D200095038B /* SummarooAppTests.xctest */,
+				DE5795F0246B2D200095038B /* SummarooAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE5795D1246B2D080095038B /* SummarooApp */ = {
+			isa = PBXGroup;
+			children = (
+				DE579604246B31970095038B /* ViewControllers */,
+				DE5795E0246B2D200095038B /* Info.plist */,
+				DE57960D246B36AA0095038B /* GoogleService-Info.plist */,
+				DE5795DB246B2D200095038B /* Assets.xcassets */,
+				DE7784AA2479AC9C0064D630 /* Lottie Animations */,
+				DE7784AB2479ACC50064D630 /* Templates */,
+				DE7784AD2479AD480064D630 /* Info */,
+				DE7784AC2479AD250064D630 /* UI */,
+			);
+			path = SummarooApp;
+			sourceTree = "<group>";
+		};
+		DE5795E8246B2D200095038B /* SummarooAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE5795E9246B2D200095038B /* SummarooAppTests.swift */,
+				DE5795EB246B2D200095038B /* Info.plist */,
+			);
+			path = SummarooAppTests;
+			sourceTree = "<group>";
+		};
+		DE5795F3246B2D200095038B /* SummarooAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE5795F4246B2D200095038B /* SummarooAppUITests.swift */,
+				DE5795F6246B2D200095038B /* Info.plist */,
+			);
+			path = SummarooAppUITests;
+			sourceTree = "<group>";
+		};
+		DE579604246B31970095038B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE7784AE2479DF4F0064D630 /* PictureToPDFViewController.swift */,
+				DE7784A8247897A70064D630 /* TextPopUpViewController.swift */,
+				DE7784A4247864590064D630 /* PictureToSummaryCollectionViewController.swift */,
+				DE12735B247845E800172F08 /* MyCollectionViewCell.xib */,
+				DE12735A247845E800172F08 /* MyCollectionViewCell.swift */,
+				DE12735824783C8C00172F08 /* PictureToTextViewController.swift */,
+				DE579602246B31850095038B /* MainViewController.swift */,
+				DE579607246B31C30095038B /* SignUpViewController.swift */,
+				DE579609246B31D30095038B /* SecondMainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DE7784AA2479AC9C0064D630 /* Lottie Animations */ = {
+			isa = PBXGroup;
+			children = (
+				DE1273562470FF2600172F08 /* 4887-book.json */,
+				DE1273542470F68D00172F08 /* book.json */,
+			);
+			path = "Lottie Animations";
+			sourceTree = "<group>";
+		};
+		DE7784AB2479ACC50064D630 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				DE57960F246B50AB0095038B /* MainNavigationController.swift */,
+				DE1273502470889A00172F08 /* ButtonWithLabel.swift */,
+				DE5795D6246B2D080095038B /* ViewController.swift */,
+				DE5795D4246B2D080095038B /* SceneDelegate.swift */,
+				DE5795D2246B2D080095038B /* AppDelegate.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		DE7784AC2479AD250064D630 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DE5795D8246B2D080095038B /* Main.storyboard */,
+				DE5795DD246B2D200095038B /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DE7784AD2479AD480064D630 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE5795CE246B2D080095038B /* SummarooApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5795F9246B2D210095038B /* Build configuration list for PBXNativeTarget "SummarooApp" */;
+			buildPhases = (
+				FBED44FFE1E68FFA1823BDDF /* [CP] Check Pods Manifest.lock */,
+				DE5795CB246B2D080095038B /* Sources */,
+				DE5795CC246B2D080095038B /* Frameworks */,
+				DE5795CD246B2D080095038B /* Resources */,
+				0DA6CD1F124C6C60ED0C551D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SummarooApp;
+			productName = SummarooApp;
+			productReference = DE5795CF246B2D080095038B /* SummarooApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE5795E4246B2D200095038B /* SummarooAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5795FC246B2D210095038B /* Build configuration list for PBXNativeTarget "SummarooAppTests" */;
+			buildPhases = (
+				4125428A6918075335DB5882 /* [CP] Check Pods Manifest.lock */,
+				DE5795E1246B2D200095038B /* Sources */,
+				DE5795E2246B2D200095038B /* Frameworks */,
+				DE5795E3246B2D200095038B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE5795E7246B2D200095038B /* PBXTargetDependency */,
+			);
+			name = SummarooAppTests;
+			productName = SummarooAppTests;
+			productReference = DE5795E5246B2D200095038B /* SummarooAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE5795EF246B2D200095038B /* SummarooAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5795FF246B2D210095038B /* Build configuration list for PBXNativeTarget "SummarooAppUITests" */;
+			buildPhases = (
+				45447099774E6B401095B6EB /* [CP] Check Pods Manifest.lock */,
+				DE5795EC246B2D200095038B /* Sources */,
+				DE5795ED246B2D200095038B /* Frameworks */,
+				DE5795EE246B2D200095038B /* Resources */,
+				B478B62E13FAD021D1990F28 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE5795F2246B2D200095038B /* PBXTargetDependency */,
+			);
+			name = SummarooAppUITests;
+			productName = SummarooAppUITests;
+			productReference = DE5795F0246B2D200095038B /* SummarooAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE5795C7246B2D080095038B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Jake Cawley";
+				TargetAttributes = {
+					DE5795CE246B2D080095038B = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					DE5795E4246B2D200095038B = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = DE5795CE246B2D080095038B;
+					};
+					DE5795EF246B2D200095038B = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = DE5795CE246B2D080095038B;
+					};
+				};
+			};
+			buildConfigurationList = DE5795CA246B2D080095038B /* Build configuration list for PBXProject "SummarooApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE5795C6246B2D080095038B;
+			productRefGroup = DE5795D0246B2D080095038B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE5795CE246B2D080095038B /* SummarooApp */,
+				DE5795E4246B2D200095038B /* SummarooAppTests */,
+				DE5795EF246B2D200095038B /* SummarooAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE5795CD246B2D080095038B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5795DF246B2D200095038B /* LaunchScreen.storyboard in Resources */,
+				DE12735D247845E800172F08 /* MyCollectionViewCell.xib in Resources */,
+				DE5795DC246B2D200095038B /* Assets.xcassets in Resources */,
+				DE5795DA246B2D080095038B /* Main.storyboard in Resources */,
+				DE1273572470FF2600172F08 /* 4887-book.json in Resources */,
+				DE57960E246B36AA0095038B /* GoogleService-Info.plist in Resources */,
+				DE1273552470F68D00172F08 /* book.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5795E3246B2D200095038B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5795EE246B2D200095038B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DA6CD1F124C6C60ED0C551D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SummarooApp/Pods-SummarooApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SummarooApp/Pods-SummarooApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SummarooApp/Pods-SummarooApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4125428A6918075335DB5882 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SummarooAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45447099774E6B401095B6EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SummarooApp-SummarooAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B478B62E13FAD021D1990F28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SummarooApp-SummarooAppUITests/Pods-SummarooApp-SummarooAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SummarooApp-SummarooAppUITests/Pods-SummarooApp-SummarooAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SummarooApp-SummarooAppUITests/Pods-SummarooApp-SummarooAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBED44FFE1E68FFA1823BDDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SummarooApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE5795CB246B2D080095038B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE57960A246B31D30095038B /* SecondMainViewController.swift in Sources */,
+				DE579608246B31C30095038B /* SignUpViewController.swift in Sources */,
+				DE12735924783C8C00172F08 /* PictureToTextViewController.swift in Sources */,
+				DE579610246B50AB0095038B /* MainNavigationController.swift in Sources */,
+				DE7784A5247864590064D630 /* PictureToSummaryCollectionViewController.swift in Sources */,
+				DE5795D7246B2D080095038B /* ViewController.swift in Sources */,
+				DE5795D3246B2D080095038B /* AppDelegate.swift in Sources */,
+				DE12735C247845E800172F08 /* MyCollectionViewCell.swift in Sources */,
+				DE7784A9247897A70064D630 /* TextPopUpViewController.swift in Sources */,
+				DE5795D5246B2D080095038B /* SceneDelegate.swift in Sources */,
+				DE7784AF2479DF4F0064D630 /* PictureToPDFViewController.swift in Sources */,
+				DE579603246B31850095038B /* MainViewController.swift in Sources */,
+				DE1273512470889A00172F08 /* ButtonWithLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5795E1246B2D200095038B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5795EA246B2D200095038B /* SummarooAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5795EC246B2D200095038B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5795F5246B2D200095038B /* SummarooAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE5795E7246B2D200095038B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5795CE246B2D080095038B /* SummarooApp */;
+			targetProxy = DE5795E6246B2D200095038B /* PBXContainerItemProxy */;
+		};
+		DE5795F2246B2D200095038B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5795CE246B2D080095038B /* SummarooApp */;
+			targetProxy = DE5795F1246B2D200095038B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE5795D8246B2D080095038B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5795D9246B2D080095038B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE5795DD246B2D200095038B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5795DE246B2D200095038B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE5795F7246B2D200095038B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE5795F8246B2D200095038B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE5795FA246B2D210095038B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB21D4FB27ED93FC94AD65D /* Pods-SummarooApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGUT7H29TA;
+				INFOPLIST_FILE = SummarooApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JakeCawley.SummarooApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE5795FB246B2D210095038B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A365BCA28C203AB17F472851 /* Pods-SummarooApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGUT7H29TA;
+				INFOPLIST_FILE = SummarooApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JakeCawley.SummarooApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE5795FD246B2D210095038B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83EB1F994BE530313685E7B0 /* Pods-SummarooAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGUT7H29TA;
+				INFOPLIST_FILE = SummarooAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JakeCawley.SummarooAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummarooApp.app/SummarooApp";
+			};
+			name = Debug;
+		};
+		DE5795FE246B2D210095038B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB534E1F6A2D365BDADF614D /* Pods-SummarooAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGUT7H29TA;
+				INFOPLIST_FILE = SummarooAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JakeCawley.SummarooAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummarooApp.app/SummarooApp";
+			};
+			name = Release;
+		};
+		DE579600246B2D210095038B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C728EAF1902643281586138 /* Pods-SummarooApp-SummarooAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGUT7H29TA;
+				INFOPLIST_FILE = SummarooAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JakeCawley.SummarooAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SummarooApp;
+			};
+			name = Debug;
+		};
+		DE579601246B2D210095038B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E2A85458F559B0685D53C7 /* Pods-SummarooApp-SummarooAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGUT7H29TA;
+				INFOPLIST_FILE = SummarooAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JakeCawley.SummarooAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SummarooApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE5795CA246B2D080095038B /* Build configuration list for PBXProject "SummarooApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5795F7246B2D200095038B /* Debug */,
+				DE5795F8246B2D200095038B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5795F9246B2D210095038B /* Build configuration list for PBXNativeTarget "SummarooApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5795FA246B2D210095038B /* Debug */,
+				DE5795FB246B2D210095038B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5795FC246B2D210095038B /* Build configuration list for PBXNativeTarget "SummarooAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5795FD246B2D210095038B /* Debug */,
+				DE5795FE246B2D210095038B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5795FF246B2D210095038B /* Build configuration list for PBXNativeTarget "SummarooAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE579600246B2D210095038B /* Debug */,
+				DE579601246B2D210095038B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE5795C7246B2D080095038B /* Project object */;
+}
